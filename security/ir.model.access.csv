@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_commission_line_user,commission.line.user,model_sale_cash_commission_line,group_commission_user,1,0,0,0
+access_commission_line_manager,commission.line.manager,model_sale_cash_commission_line,group_commission_manager,1,1,1,1
+access_commission_period_user,commission.period.user,model_sale_cash_commission_period,group_commission_user,1,0,0,0
+access_commission_period_manager,commission.period.manager,model_sale_cash_commission_period,group_commission_manager,1,1,1,1
+access_product_user_commission_manager,product.user.commission.manager,model_product_user_commission,group_commission_manager,1,1,1,1

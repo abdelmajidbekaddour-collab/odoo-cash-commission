@@ -1,0 +1,580 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_cash_commission_enterprise
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-27 18:06+0000\n"
+"PO-Revision-Date: 2026-02-27 18:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_needaction
+msgid "Action Needed"
+msgstr "يتطلب إجراء"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "تزيين استثناء النشاط"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "أيقونة نوع النشاط"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model,name:sale_cash_commission_enterprise.model_sale_cash_commission_line
+msgid "Cash Based Commission Line"
+msgstr "بند عمولة على أساس نقدي"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields.selection,name:sale_cash_commission_enterprise.selection__sale_cash_commission_line__state__closed
+msgid "Closed"
+msgstr "مغلقة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__commission_rate
+msgid "Commission %"
+msgstr "النسبة %"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__commission_amount
+msgid "Commission Amount"
+msgstr "إجمالي العمولة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_account_bank_statement_line__commission_employee_ids
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_account_move__commission_employee_ids
+msgid "Commission Employees"
+msgstr "موظفو العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:res.groups,name:sale_cash_commission_enterprise.group_commission_manager
+msgid "Commission Manager"
+msgstr "مدير العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__period_id
+msgid "Commission Period"
+msgstr "فترة العمولة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.actions.act_window,name:sale_cash_commission_enterprise.action_commission_periods
+msgid "Commission Periods"
+msgstr "فترات العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__commission_rate
+msgid "Commission Rate"
+msgstr "نسبة العمولة"
+
+#. module: sale_cash_commission_enterprise
+#: model:res.groups,name:sale_cash_commission_enterprise.group_commission_user
+msgid "Commission User"
+msgstr "مستخدم العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__create_uid
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__create_uid
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__create_date
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__create_date
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__currency_id
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_product__commission_rate
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_template__commission_rate
+msgid "Default Commission %"
+msgstr "النسبة الافتراضية (%)"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__display_name
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__display_name
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__employee_id
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة Font awesome مثل fa-tasks"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__has_message
+msgid "Has Message"
+msgstr "يحتوي على رسالة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__id
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__id
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_exception_icon
+msgid "Icon"
+msgstr "الأيقونة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى استثناء في النشاط."
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديده، فهناك رسائل جديدة تتطلب اهتمامك."
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_has_error
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديده، فهناك رسائل بها خطأ في التسليم."
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__invoice_id
+msgid "Invoice"
+msgstr "الفاتورة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__invoice_line_id
+msgid "Invoice Line"
+msgstr "بند الفاتورة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields.selection,name:sale_cash_commission_enterprise.selection__sale_cash_commission_line__state__invoiced
+msgid "Invoiced"
+msgstr "مفَوْتر"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_is_follower
+msgid "Is Follower"
+msgstr "متابع"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model,name:sale_cash_commission_enterprise.model_account_move
+msgid "Journal Entry"
+msgstr "قيد اليومية"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__write_uid
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__write_uid
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__write_date
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__write_date
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "الحدث القادم في تقويم النشاط"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط القادم"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب إجراء"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields.selection,name:sale_cash_commission_enterprise.selection__sale_cash_commission_line__state__open
+msgid "Open"
+msgstr "مفتوحة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__paid_amount
+msgid "Paid Amount"
+msgstr "إجمالي المبالغ المحصلة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model,name:sale_cash_commission_enterprise.model_account_partial_reconcile
+msgid "Partial Reconcile"
+msgstr "تسوية جزئية"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__partner_id
+msgid "Partner"
+msgstr "الشريك"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model,name:sale_cash_commission_enterprise.model_hr_payslip
+msgid "Pay Slip"
+msgstr "قسيمة المرتب"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__payslip_id
+msgid "Payslip"
+msgstr "قسيمة المرتب"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model,name:sale_cash_commission_enterprise.model_product_template
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__product_tmpl_id
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__product_id
+msgid "Product"
+msgstr "المنتج"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__reconcile_id
+msgid "Reconcile"
+msgstr "تسوية"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__name
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم SMS"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_user_commission__employee_id
+msgid "Salesperson (Employee)"
+msgstr "مندوب المبيعات (موظف)"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_line__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق مر بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"مخطط: أنشطة مستقبلية."
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_period_form
+msgid "Total"
+msgstr "الإجمالي"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط المستثنى المسجل."
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model,name:sale_cash_commission_enterprise.model_product_user_commission
+msgid "User Product Commission Rate"
+msgstr "نسبة عمولة المنتج للمستخدم"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_product__user_commission_ids
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_product_template__user_commission_ids
+msgid "User Specific Commissions"
+msgstr "نسب عمولة مخصصة لكل موظف"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع الإلكتروني"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_sale_cash_commission_period__website_message_ids
+msgid "Website communication history"
+msgstr "سجل تواصل الموقع الإلكتروني"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.actions.act_window,name:sale_cash_commission_enterprise.action_commission_lines
+msgid "أسطر العمولات المحصلة"
+msgstr "أسطر العمولات المحصلة"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.actions.act_window,help:sale_cash_commission_enterprise.action_commission_periods
+msgid "أنشئ أول فترة عمولة لتجميع مستحقات المناديب."
+msgstr "أنشئ أول فترة عمولة لتجميع مستحقات المناديب."
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_tree
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_period_tree
+msgid "إجمالي العمولات"
+msgstr "إجمالي العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__total_amount
+msgid "إجمالي العمولة"
+msgstr "إجمالي العمولة"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_tree
+msgid "إجمالي المبالغ المحصلة"
+msgstr "إجمالي المبالغ المحصلة"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_period_form
+msgid "إغلاق الفترة"
+msgstr "إغلاق الفترة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__date_to
+msgid "إلى تاريخ"
+msgstr "إلى تاريخ"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_account_bank_statement_line__commission_employee_ids
+#: model:ir.model.fields,help:sale_cash_commission_enterprise.field_account_move__commission_employee_ids
+msgid "اختر الموظفين الذين سيحصلون على العمولة"
+msgstr "اختر الموظفين الذين سيحصلون على العمولة"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_move_form_inherit_commission_head
+msgid "اختر مندوب العمولة..."
+msgstr "اختر مندوب العمولة..."
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_product_form_inherit_commission
+msgid "الإعدادات الافتراضية"
+msgstr "الإعدادات الافتراضية"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_search
+msgid "التاريخ"
+msgstr "التاريخ"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__state
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_search
+msgid "الحالة"
+msgstr "الحالة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__employee_id
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_search
+msgid "الموظف"
+msgstr "الموظف"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_tree
+msgid "النسبة %"
+msgstr "النسبة %"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_product_form_inherit_commission
+msgid "النسبة الافتراضية (%)"
+msgstr "النسبة الافتراضية (%)"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.ui.menu,name:sale_cash_commission_enterprise.menu_commission_lines
+msgid "بنود العمولات"
+msgstr "بنود العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_search
+msgid "تجميع حسب"
+msgstr "تجميع حسب"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_period_form
+msgid "تفاصيل العمولات"
+msgstr "تفاصيل العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields.selection,name:sale_cash_commission_enterprise.selection__sale_cash_commission_period__state__paid
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_search
+msgid "رُحلت للرواتب"
+msgstr "رُحلت للرواتب"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.actions.act_window,help:sale_cash_commission_enterprise.action_commission_lines
+msgid "ستظهر العمولات هنا تلقائياً عند تسوية فواتير المبيعات."
+msgstr "ستظهر العمولات هنا تلقائياً عند تسوية فواتير المبيعات."
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__commission_line_ids
+msgid "سطور العمولات"
+msgstr "سطور العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.ui.menu,name:sale_cash_commission_enterprise.menu_commission_root
+msgid "عمولات المبيعات"
+msgstr "عمولات المبيعات"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_product_form_inherit_commission
+msgid "عمولات الموظفين"
+msgstr "عمولات الموظفين"
+
+#. module: sale_cash_commission_enterprise
+#: model:hr.salary.rule,name:sale_cash_commission_enterprise.hr_salary_rule_commission_cash
+msgid "عمولة مبيعات نقداً"
+msgstr "عمولة مبيعات نقداً"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.ui.menu,name:sale_cash_commission_enterprise.menu_commission_periods
+msgid "فترات العمولات"
+msgstr "فترات العمولات"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model,name:sale_cash_commission_enterprise.model_sale_cash_commission_period
+msgid "فترة عمولة المبيعات للموظفين"
+msgstr "فترة عمولة المبيعات للموظفين"
+
+#. module: sale_cash_commission_enterprise
+#. odoo-python
+#: code:addons/sale_cash_commission_enterprise/models/commission_period.py:0
+msgid "No open commission records for this employee in this period."
+msgstr "لا توجد سجلات عمولة مفتوحة لهذا الموظف في هذه الفترة."
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.actions.act_window,help:sale_cash_commission_enterprise.action_commission_lines
+msgid "لا توجد عمولات مسجلة بعد."
+msgstr "لا توجد عمولات مسجلة بعد."
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.constraint,message:sale_cash_commission_enterprise.constraint_product_user_commission_user_product_unique
+msgid "لا يمكنك وضع نسبتين عمولة لنفس المندوب في نفس المنتج!"
+msgstr "لا يمكنك وضع نسبتين عمولة لنفس المندوب في نفس المنتج!"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields.selection,name:sale_cash_commission_enterprise.selection__sale_cash_commission_period__state__draft
+msgid "مسودة"
+msgstr "مسودة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields.selection,name:sale_cash_commission_enterprise.selection__sale_cash_commission_period__state__closed
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_search
+msgid "مغلقة"
+msgstr "مغلقة"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_commission_line_search
+msgid "مفتوحة"
+msgstr "مفتوحة"
+
+#. module: sale_cash_commission_enterprise
+#: model:ir.model.fields,field_description:sale_cash_commission_enterprise.field_sale_cash_commission_period__date_from
+msgid "من تاريخ"
+msgstr "من تاريخ"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_product_form_inherit_commission
+msgid "نسب عمولة مخصصة لكل موظف"
+msgstr "نسب عمولة مخصصة لكل موظف"
+
+#. module: sale_cash_commission_enterprise
+#: model_terms:ir.ui.view,arch_db:sale_cash_commission_enterprise.view_product_form_inherit_commission
+msgid "نسبة العمولة (%)"
+msgstr "نسبة العمولة (%)"

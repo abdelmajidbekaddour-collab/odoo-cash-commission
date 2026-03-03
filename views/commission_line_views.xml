@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_commission_line_tree" model="ir.ui.view">
+        <field name="name">sale.cash.commission.line.tree</field>
+        <field name="model">sale.cash.commission.line</field>
+        <field name="arch" type="xml">
+            <list decoration-danger="commission_amount &lt; 0" create="false" edit="false">
+                <field name="date"/>
+                <field name="employee_id" widget="many2one_avatar_employee"/>
+                <field name="invoice_id"/>
+                <field name="product_id"/>
+                <field name="paid_amount" sum="إجمالي المبالغ المحصلة"/>
+                <field name="commission_rate" string="النسبة %"/>
+                <field name="commission_amount" sum="إجمالي العمولات" decoration-bf="1"/>
+                <field name="state" widget="badge"
+                       decoration-success="state == 'invoiced'"
+                       decoration-warning="state == 'closed'"
+                       decoration-info="state == 'open'"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_commission_line_search" model="ir.ui.view">
+        <field name="name">sale.cash.commission.line.search</field>
+        <field name="model">sale.cash.commission.line</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="employee_id"/>
+                <field name="invoice_id"/>
+                <field name="product_id"/>
+                <filter string="مفتوحة" name="open" domain="[('state', '=', 'open')]"/>
+                <filter string="مغلقة" name="closed" domain="[('state', '=', 'closed')]"/>
+                <filter string="رُحلت للرواتب" name="invoiced" domain="[('state', '=', 'invoiced')]"/>
+                <separator/>
+                <group expand="0" string="تجميع حسب">
+                    <filter string="الموظف" name="group_by_employee" context="{'group_by': 'employee_id'}"/>
+                    <filter string="التاريخ" name="group_by_date" context="{'group_by': 'date'}"/>
+                    <filter string="الحالة" name="group_by_state" context="{'group_by': 'state'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_commission_lines" model="ir.actions.act_window">
+        <field name="name">أسطر العمولات المحصلة</field>
+        <field name="res_model">sale.cash.commission.line</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_commission_line_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                لا توجد عمولات مسجلة بعد.
+            </p>
+            <p>
+                ستظهر العمولات هنا تلقائياً عند تسوية فواتير المبيعات.
+            </p>
+        </field>
+    </record>
+</odoo>

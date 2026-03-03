@@ -1,0 +1,21 @@
+<odoo>
+
+    <menuitem id="menu_commission_root"
+          name="عمولات المبيعات"
+          parent="sale.sale_menu_root"
+          groups="sale_cash_commission_enterprise.group_commission_user,sale_cash_commission_enterprise.group_commission_manager"
+          sequence="90"/>
+
+    <menuitem id="menu_commission_lines"
+          name="بنود العمولات"
+          parent="menu_commission_root"
+          action="action_commission_lines"
+          groups="sale_cash_commission_enterprise.group_commission_user,sale_cash_commission_enterprise.group_commission_manager"/>
+
+    <menuitem id="menu_commission_periods"
+          name="فترات العمولات"
+          parent="menu_commission_root"
+          action="action_commission_periods"
+          groups="sale_cash_commission_enterprise.group_commission_manager"/>
+
+</odoo>

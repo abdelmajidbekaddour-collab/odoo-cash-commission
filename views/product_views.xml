@@ -1,0 +1,30 @@
+
+<odoo>
+    <record id="view_product_form_inherit_commission" model="ir.ui.view">
+        <field name="name">product.form.commission.employee.lines</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//notebook" position="inside">
+                <page string="عمولات الموظفين" name="user_commissions">
+                    <group>
+                        <group string="الإعدادات الافتراضية">
+<!--                            <field name="commission_account_id" options="{'no_create': True}"/>-->
+                            <field name="commission_rate" string="النسبة الافتراضية (%)"/>
+                        </group>
+                    </group>
+
+                    <separator string="نسب عمولة مخصصة لكل موظف"/>
+                    <field name="user_commission_ids">
+                        <list editable="bottom">
+                            <field name="employee_id" options="{'no_create': True, 'no_open': True}"/>
+                            <field name="commission_rate" string="نسبة العمولة (%)"/>
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

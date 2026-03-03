@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="hr_salary_rule_commission_cash" model="hr.salary.rule">
+            <field name="name">Sales Commission (Cash)</field>
+            <field name="code">COMM_RULE</field>
+            <field name="category_id" ref="hr_payroll.ALW"/> <field name="sequence" eval="25"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">
+
+result = 0.0
+
+periods = payslip.env['sale.cash.commission.period'].search([
+    ('employee_id', '=', employee.id),
+    ('state', '=', 'closed'),
+    ('date_from', '&lt;=', payslip.date_to),
+    ('date_to', '&gt;=', payslip.date_from),
+])
+result = sum(periods.mapped('total_amount'))
+            </field>
+        </record>
+    </data>
+</odoo>
