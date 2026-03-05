@@ -45,7 +45,7 @@ Once configured:
 
 ## 📧 Support & Customization
 Need professional support or custom features? We provide tailored solutions for your business requirements.
-- **Email:** [Your Support Email Here]
+- **Email:** [abdelmajidbekaddour@gmail.com]
 - **Services:** Configuration, Customization, Support.
 
 ## 📄 License
