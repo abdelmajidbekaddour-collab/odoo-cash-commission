@@ -1,6 +1,6 @@
 {
     'name': 'Cash-Based Sales Commission (Enterprise)',
-    'version': '18.0.1.0.3',
+    'version': '18.0.1.0.4',
     'summary': 'Automate sales commissions based on actual cash collection, supporting partial payments, credit notes, and payroll integration.',
     'description': """
         This module provides an advanced solution for managing sales commissions in Odoo.
